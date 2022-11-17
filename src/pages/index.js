@@ -26,5 +26,7 @@ const IndexPage = () => {
   )
 }
 
+
+
 // Stap 3: Exporteer je component
 export default IndexPage
