@@ -8,6 +8,7 @@
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-wordpress",
       options: {
@@ -15,7 +16,7 @@
          * De volledige URL van je Headless WordPress site's GraphQL API.
          * Voorbeeld : "https://www.example-site.com/graphql"
          */
-        url: "http://artist-agency.local/graphql",
+        url: "http://artist-agency-2021.local/graphql",
       },
     },
   ],
